@@ -1,0 +1,461 @@
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: #1ac6ff;
+    overflow: hidden;
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+    font-weight: 300;
+    overflow-y:auto;
+	display: block;
+	font-size: 16px;
+}
+
+
+footer {
+	width: 100%;
+	top: 100%;
+	background-color: transparent;
+	/*border: 5px solid black;*/
+	position: relative;
+    z-index: 999;
+}
+
+.indexFooter {
+	width: 100%;
+	top: 98%;
+	background-color: transparent;
+	/*border: 5px solid black;*/
+	position: absolute;
+    z-index: 999;
+}
+
+header {
+	/*border: 5px solid black;*/
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: block;
+	box-sizing: border-box;
+	background: ;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.25em;
+	text-align: center;
+
+	position: relative;
+    z-index: 999;
+}
+
+.indexHeader {
+	/*border: 5px solid black;*/
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: block;
+	box-sizing: border-box;
+	background: ;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.25em;
+	text-align: center;
+
+	position: absolute;
+    z-index: 999;
+}
+
+div {
+	margin: 0;
+	/*display: flex;*/
+	height: auto;
+	width: auto;
+	box-sizing: border-box;
+}
+
+nav {
+	width: 100%;
+	
+}
+
+ul {
+	list-style: none;
+	display: block;
+	padding: 0 2%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+li {
+	display: inline;
+	padding: 0 1%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a,
+a:visited {
+    color: royalblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0600B3;
+    text-decoration: none;
+}
+
+h1 {
+	color: white;
+}
+
+h3 {
+	border-bottom: 2px;
+	margin-bottom: 20px;
+}
+
+.error {
+	margin: 0;
+    color: red;
+    text-align: center;
+    border: none;
+}
+
+.correo {
+    color: black;
+    text-align:justify;
+    border: none;
+    margin: 0;
+    text-indent: center;
+    margin-top:-20px;
+    font-size:15px;
+    margin-left: 6px;
+}
+
+.wrapper {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+    box-sizing: border-box;
+}
+
+.screen {
+    position: relative;
+    height: auto;
+    width: 100%; /*  NOTE: numVideos/100%  */;
+    float: left;
+    overflow: hidden;
+    margin: 0;
+    margin-top: -2%;
+    padding: 0;
+}
+
+.logo {
+	width: 22rem;
+	position: relative;
+	z-index: 100;
+}
+
+.mainDivIndex {
+	height: auto;
+	width: 100%;
+	margin: 0;
+	display: inline-block;
+	margin-top: 0;
+
+}
+
+.mainDiv {
+	height: auto;
+	width: 100%;
+	margin: 0;
+	margin-top: 5%;
+	display: inline-block;
+
+}
+
+.mainContent {
+	height: auto;
+}
+
+.sideMenu {
+	background-color: white;
+	display: inline-block;
+	height: inherit;
+	width: 20%;
+	border-radius: 0 10px 10px 0;
+	position: fixed;
+	padding: 20px 10px;
+	color: black;
+	text-align: left;
+}
+
+.mainContent {
+	display: inline-block;
+	height: auto;
+	width: 80%;
+	margin-left: 20%; 
+	margin-bottom: 7.5%;
+}
+
+#formCaptcha {
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.registroForm {
+	display: block;
+	margin: 10px 15%;
+	color: white;
+	letter-spacing: .05em;
+}
+
+#divFechaNac {
+	color: black;
+	text-align: center;
+}
+
+
+/*Sesion Form*/
+
+#homeBtn {
+    font-size: 2em;
+    color: black;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#bienvenido {
+    font-family: 'Pacifico', cursive;
+    font-size: 10em;
+    text-shadow: 3px 3px black;
+    color: #fff;
+    margin: 0;
+}
+
+#sesionLabel {
+    color: black;
+    text-shadow: none;
+}
+
+#buttonDiv {
+    text-align: center;
+}
+
+.botonEditar {
+	width: 150px;
+	margin: 0 55px;
+	background-color: navy;
+}
+
+.botonEliminar {
+	width: 150px;
+	margin: 0 55px;
+	background-color: #FF1300; /*rgb(218, 0, 0)*/
+}
+
+
+.sesionHeader {
+	text-align: center;
+}
+
+/*********************************/
+
+label {
+	text-shadow: 1px 1px 4px black; 
+}
+
+#pageTitle {
+	width: 100%;
+	height: 4em;
+	text-align: center;
+}
+
+
+#contrasenaLabel {
+	padding-top: 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    text-shadow: 3px 3px black;
+    color: #fff;
+
+}
+
+#olvidoContrasena {
+    color: black;
+    text-shadow: none;
+   	text-align: center;
+}
+
+#olvidoContrasena a{
+	text-shadow: none;
+}
+
+#correoo{
+	margin-top: -20px;
+	margin-left:20px;
+	text-align: justify;
+	font-size:14px;
+}
+
+#divArribaLista {
+	text-align: right;
+	padding-right: 4%;
+}
+
+#opcionArribaLista {
+	margin-left: 3%;
+	margin-bottom: .85%;
+}
+
+#tablaOutsideBordes{
+	text-align: left;
+	border: 6px solid black;
+	border-collapse: collapse;
+}
+
+#tablaBordes{
+	text-align: left;
+	border: 3px solid black;
+	border-collapse: collapse;
+}
+
+#centeredSquare {
+    border: 0px solid black;
+/*    margin: 4% 4% 4% 4%;*/    
+	/*margin: 4% 3.5%;*/
+	margin: 2% 3.5% 4% 3.5%;
+	padding: 0;
+    font-family: Arial, Times, Sans-Serif;
+    font-size: 18px;
+    width: auto;
+    text-align: center;
+}
+
+#centeredSquare td{
+	text-align: center;
+	font-family: "Verdana", Times, serif;
+	font-weight: lighter;
+	font-size: 1.45rem;
+	padding: 2.5px 2px;
+}
+#centeredSquare th{
+	text-align: center;
+	font-family: "Lucida Sans Unicode", Times, serif;
+	font-weight: bold;
+	font-size: 1.75rem;
+	padding: 5px 4px;
+}
+
+
+table{
+	width: 100%;
+}
+
+/*#quienesSomos{
+	color: white;
+	
+}*/
+
+#contact_form{
+	text-align: center;
+}
+
+/*********************************/
+
+#quienesSomos {
+	display: inline-block;
+}
+
+#quienesSomos li h4,
+#quienesSomos h3 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	line-height: .5;
+	width: auto;
+	size: auto;
+}
+
+.imgMiembro {
+	padding-left:20%;
+}
+
+.fotoMiembro {
+	border-radius: 50%;
+	width: 25rem;
+	margin-bottom: 30px;
+	
+}
+
+.mainDivBloqueado {
+	height: auto;
+	width: 100%;
+	margin: 0;
+	margin-top: 7%;
+	display: inline-block;
+	text-align: center;
+}
+
+ #bloqueadoH1 {
+ 	margin-top: 10%;
+ 	font-size: 10rem;
+ }
+
+ #bloqueadoH2 {
+
+ }
+
+ #bloqueadoH3 {
+
+ }
+
+ #eventos {
+ 	margin: 0 10%;
+ }
+
+ #eventos h1 {
+ 	text-align: center;
+ 	font-size: 6rem;
+ }
+
+  #eventos h3 {
+ 	text-align: left;
+ }
+
+
+#eventos p {
+ 	text-align: justify;
+}
+
+#eventos ul {
+ 	text-align: left;
+ 	list-style-type: circle;
+ }
+
+#formContacto{
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
